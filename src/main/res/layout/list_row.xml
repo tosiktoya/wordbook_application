@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:baselineAligned="true"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="horizontal"
+    android:id="@+id/backlist">
+
+        <TextView
+            android:id="@+id/txtId"
+            android:layout_width="50dp"
+            android:layout_height="45dp"
+            android:text=""
+            android:textColor="#3b3b3b" />
+        <TextView
+            android:id="@+id/txtWord"
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:text=""
+            android:textColor="#3b3b3b" />
+        <TextView
+            android:id="@+id/txtMeaning"
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:text=""
+            android:textColor="#3b3b3b" />
+        <TextView
+            android:id="@+id/txtTag"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:text=""
+            android:textColor="#3b3b3b" />
+
+        <ToggleButton
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginRight="45dp"
+            android:background="@drawable/btn_star_off_normal"
+            android:id="@+id/imagetest"/>
+
+        <ImageButton
+            android:id="@+id/soundBtn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:focusableInTouchMode="false"
+            android:focusable="false"
+            android:background="@drawable/sound" />
+
+</LinearLayout>
